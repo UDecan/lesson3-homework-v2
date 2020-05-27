@@ -17,22 +17,22 @@ class InputImage extends InputTag
     /**
      * @var string
      */
-    private $align;
+    protected $align;
 
     /**
      * @var string
      */
-    private $alt;
+    protected $alt;
 
     /**
      * @var int
      */
-    private $border;
+    protected $border;
 
     /**
      * @var string
      */
-    private $src;
+    protected $src;
 
     public function __construct()
     {

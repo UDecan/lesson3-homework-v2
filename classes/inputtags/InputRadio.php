@@ -18,12 +18,12 @@ class InputRadio extends InputTag
     /**
      * @var string
      */
-    private $autocomplete;
+    protected $autocomplete;
 
     /**
      * @var bool
      */
-    private $checked;
+    protected $checked;
 
 
     public function __construct()

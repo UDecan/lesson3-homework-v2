@@ -14,17 +14,17 @@ class InputFile extends TableTag
     /**
      * @var string
      */
-    private $accept;
+    protected $accept;
 
     /**
      * @var bool
      */
-    private $multiple;
+    protected $multiple;
 
     /**
      * @var string
      */
-    private $placeholder;
+    protected $placeholder;
 
     public function __construct()
     {
