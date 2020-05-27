@@ -1,0 +1,20 @@
+{
+    "name": "user/lesson-3-homework",
+    "authors": [
+        {
+            "name": "Khasanov Arthur",
+            "email": "foparu68@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\":"classes",
+            "App\\classes\\abstracts\\": "classes/abstracts",
+            "App\\classes\\inputtags\\": "classes/inputtags",
+            "App\\classes\\tabletags\\": "classes/tabletags",
+            "App\\classes\\traits\\" : "classes/traits",
+            "App\\classes\\interfaces\\": "classes/interfaces"
+        }
+    }
+}
